@@ -1,2 +1,2 @@
 # Hosting-Serverless-Web-Application
-Hosting serverless web application on aws
+Hosting Serverless Web Application on AWS using S3, CloudFront, API Gateway, Lambda Function and DynamoDB
