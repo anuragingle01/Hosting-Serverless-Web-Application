@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        h1 {
+            color: #007bff;
+        }
+
+        #saveprofile,
+        #getprofile {
+            margin-top: 10px;
+        }
+
+        #showProfile {
+            margin-top: 20px;
+        }
+
+        table {
+            margin-top: 10px;
+        }
+
+        th {
+            background-color: #007bff;
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div align="center">
+            <h1>Save and View an Employee Profile</h1>
+            <label for="empid">Employee ID:</label>
+            <br>
+            <input type="text" class="form-control" name="employeeid" id="empid">
+            <br>
+            <label for="fname">First name:</label>
+            <br>
+            <input type="text" class="form-control" name="firstname" id="fname">
+            <br>
+            <label for="lname">Last name:</label>
+            <br>
+            <input type="text" class="form-control" name="lastname" id="lname">
+            <br>
+            <label for="empage">Employee Age:</label>
+            <br>
+            <input type="text" class="form-control" name="empage" id="empage">
+            <br>
+            <br>
+            <button class="btn btn-primary" id="saveprofile">Save Profile</button>
+            <br>
+            <p id="profileSaved"></p>
+            <br>
+            <button class="btn btn-success" id="getprofile">View all the Employee Profiles</button>
+            <br>
+            <div id="showProfile">
+                <table class="table table-bordered">
+                    <colgroup>
+                        <col style="width:20%">
+                        <col style="width:20%">
+                        <col style="width:20%">
+                        <col style="width:20%">
+                    </colgroup>
+                    <thead class="thead-light">
+                        <tr>
+                            <th>Employee ID</th>
+                            <th>First name</th>
+                            <th>Last Name</th>
+                            <th>Employee Age</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
