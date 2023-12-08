@@ -23,4 +23,10 @@ Copy lambda function code from getEmployee.py and insertEmployeeData.py and past
 Create RestAPI with two methods get and post 
 ![image](https://github.com/anuragingle01/Hosting-Serverless-Web-Application/assets/110114526/277a8936-690b-4692-9a3f-18c064988a3f)
 
+## Paste below url in Browser
+<a href="https://dae6fbnyzqm4f.cloudfront.net/"> https://dae6fbnyzqm4f.cloudfront.net/
+
+
+
+![image](https://github.com/anuragingle01/Hosting-Serverless-Web-Application/assets/110114526/8bd63e05-bfc3-46f1-b6c4-639807c7f7c6)
 
