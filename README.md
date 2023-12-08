@@ -11,4 +11,16 @@ Hosting Serverless Web Application on AWS using S3, CloudFront, API Gateway, Lam
 ### Step 2: Create distribution in CloudFront and select S3 bucket name as origin domain
 ![image](https://github.com/anuragingle01/Hosting-Serverless-Web-Application/assets/110114526/019263eb-fd86-48fa-9b01-616f3f6f03fa)
 
+## Steps for Deploying Backend using Lambda Function and DynamoDB
+### Step 1: Create two lambda functions getEmployee and insertEmployeeData
+Copy lambda function code from getEmployee.py and insertEmployeeData.py and paste into lambda function
+![image](https://github.com/anuragingle01/Hosting-Serverless-Web-Application/assets/110114526/2621cff6-992e-4cee-ae9b-0c0513406902)
+
+### Step 2: Create table in DynamoDB with empId as a partition key
+![image](https://github.com/anuragingle01/Hosting-Serverless-Web-Application/assets/110114526/ff811ba3-0fca-4934-bda9-bda8827bf27c)
+
+## Steps for API Gateway integration in between CloudFront and Lambda Fuunction
+Create RestAPI with two methods get and post 
+![image](https://github.com/anuragingle01/Hosting-Serverless-Web-Application/assets/110114526/277a8936-690b-4692-9a3f-18c064988a3f)
+
 
